@@ -367,6 +367,7 @@ article{
 	margin-bottom: 3%;
 }
 .new-box-text{
+	margin: 0 auto;
 	width:90%;
 	color: #b2b2b2;
 }
@@ -591,18 +592,19 @@ footer{
 		color: white;
 	}
 	.head-text{
-		top: 45%;
+		top: 35%;
 		left: 7%;
 		position: absolute;
 	}
 	.head-text p{
 		color: #33b6fb;
 		font-weight: 500;
+		font-size: 2em;
 	}
 	.head-text h1{
 		margin-top: 20px;
 		font-weight: bold;
-		font-size: 45px;
+		font-size: 3.5em;
 		margin-bottom: 50px;
 	}
 	.head-button{
@@ -727,7 +729,7 @@ footer{
 		text-align: center;
 	}
 	.img img{
-		height:60%;
+		height:40%;
 		width: 90%;
 	}
 	.about{
@@ -826,7 +828,7 @@ footer{
 	}
 	.card-image img{
 		height:85px;
-		width: 90%;
+		width: 90px;
 		border-radius: 50%;
 	}
 	.card-image{
@@ -873,6 +875,7 @@ footer{
 		margin-bottom: 20px;
 	}
 	.new-box-text{
+		margin: 0 auto;
 		width:90%;
 		color: #b2b2b2;
 	}
@@ -1368,7 +1371,8 @@ footer{
 		position: absolute;
 		z-index: 5;
 		top:85%;
-		left:38%;
+		left:50%;
+		transform: translateX(-50%);
 	}
 	.card-person p{
 		color:#c9c5c5;
@@ -1404,6 +1408,7 @@ footer{
 		margin-bottom: 20px;
 	}
 	.new-box-text{
+		margin: 0 auto;
 		width:90%;
 		color: #b2b2b2;
 	}
@@ -1473,7 +1478,7 @@ footer{
 		border-radius: 10px;
 	}
 	.part{
-		margin: 0 7%;
+		margin: 4% 7%;
 		flex: 1;
 	  flex-basis: 0;
 	}
