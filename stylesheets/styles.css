@@ -1138,11 +1138,8 @@ footer{
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
-		position: absolute;
-		top:98%;
-		max-width: 100%;
-		margin: 0 7%;
-		height:auto
+		width: 100%;
+		background-color: #000000;
 	}
 	article{
 		height: auto;
@@ -1150,8 +1147,10 @@ footer{
 	.box{
 		background-color: #121212;
 		color:white;
+		width: 90%;
 		padding: 30px;
-		margin: 0 auto 10% auto;
+		margin-top: 5%;
+		/* margin: 0 auto 1% auto; */
 	}
 	.box h1{
 		margin: 22px 0;
@@ -1177,21 +1176,19 @@ footer{
 	.box2{
 		background-color: #121212;
 		color:white;
+		width: 90%;
 		padding: 30px;
-		margin: 0 auto 10% auto;
+		margin-top: 5%;
 		border: 2px solid #33b6fb;
 	}
 	
 	.services{
-		margin-top: 900px;
 		background-color: #0b0c10;
-		height: auto;
-		padding-top: 80px;
 	}
 	.services-head{
 		display: flex;
 		margin-left: 7%;
-		margin-top: 50%;
+		margin-top: 6%;
 		color: white;
 		margin-bottom: 15px;
 		z-index: 44;
@@ -1265,7 +1262,7 @@ footer{
 	.about{
 		height:auto;
 		background-color: black;
-		padding-top: 0px;
+		padding-top: 15%;
 		margin-top: 0;
 	}
 	.about-all-images{
@@ -1305,7 +1302,7 @@ footer{
 		position: absolute;
 		color: white;
 		z-index: 2;
-		top:82%;
+		top:75%;
 		left:2%;
 	}
 	.about-text{
@@ -1329,7 +1326,7 @@ footer{
 	.testimonials{
 		height:auto;
 		background-color: #121212;
-		padding-top: 1%;
+		padding-top: 10%;
 	}
 	.tesimonials-cards{
 		display: flex;
